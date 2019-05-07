@@ -34,14 +34,14 @@ include_once "header.php";
 			<input type="Password" name="password_2" class="form-control" placeholder="Confirm Password" required="required">
 			<br>
 			<button type="submit" name="user_reg" class="btn btn-primary"> Sign Up </button>
-			<div class="forgot">Already registered?<a href="login.php"> Login</a></div>
+			<div class="forgot">Already registered?<a href="Login.php"> Login</a></div>
 				</form>
 			</div>
 		</div>
 	</div>
 	<style>
 	body#LoginForm{
-		background-image: url("img/fried-rice.jpg");
+		background-image: url("./img/fried-rice.jpg");
 		background-repeat: no-repeat;
 		background-size:cover;
 	}</style>
@@ -89,7 +89,7 @@ include_once "header.php";
                 if ( $con->query($sql) !== TRUE) {
                   die('Error: Something went wrong while registering. Please try again later. ');
                 }
-                echo 'Succesfully registered. '.$_POST['username']. ' You can now <a href="login.php"><button class="btn btn-success">sign in</button></a> to view your profile';
+                echo 'Succesfully registered. '.$_POST['username']. ' You can now <a href="Login.php"><button class="btn btn-success">sign in</button></a> to view your profile';
                 }
                 mysqli_close($con);
                  }
