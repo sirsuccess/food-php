@@ -41,7 +41,7 @@ include_once "header.php";
 	</div>
 	<style>
 	body#LoginForm{
-		background-image: url("./img/fried-rice.jpg");
+		background-image: url("img/fried-rice.jpg");
 		background-repeat: no-repeat;
 		background-size:cover;
 	}</style>

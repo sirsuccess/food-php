@@ -37,12 +37,12 @@
               <a href="order.php">Place Orders</a>
             </div>
           </div> </li>
-              <li><a href="contact.php"<li>CONTACT US</a></li>
+              <li><a href="contact.php"><li>CONTACT US</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
 
                 <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Create Account</a></li>
-              <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
           </div>
         </nav>
