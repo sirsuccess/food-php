@@ -13,7 +13,7 @@
               <h2>Login</h2>
                  </div>
 
-		<form method="post" action="login.php">
+		<form method="post" action="Login.php">
 			<div class="form-group" >
 			<input type="text" name="username" class="form-control" placeholder="Username" id="username" required="required">
 		</div>
